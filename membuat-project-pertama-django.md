@@ -75,5 +75,5 @@ Quit the server with CONTROL-C.
 
 Abaikan peringatan yang menyebutkan bahwa ada beberapa bagian yang belum dimigrasi, karena memang kita belum saatnya melakukan itu. Pesan tersebut menyatakan bahwa project Django berjalan lancar dan bisa diakses melalui [http://127.0.0.1:8000](http://127.0.0.1:8000). Akan tampil seperti gambar berikut:
 
-
+![](/assets/Django-first-app.png)
 
