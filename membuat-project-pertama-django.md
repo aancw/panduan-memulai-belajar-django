@@ -25,27 +25,30 @@ Yang dimana masing-masing tersebut adalah:
 * **djangotutorial/settings.py **merupakan pengaturan atau konfigurasi untuk project Django itu sendiri. Lebih lengkap nya silahkan baca disini [https://docs.djangoproject.com/en/1.10/topics/settings/](https://docs.djangoproject.com/en/1.10/topics/settings/)
 * **djangotutorial/urls.py** merupakan deklarasi URL untuk project Django; Berisi konfigurasi URL pada project yang kita buat. Akan kita bahas pada kesempatan selanjutnya untuk URL Dispatcher dan URLConf. Isi berkas urls.py:
 
+  ```
   """djangotutorial URL Configuration
+  The urlpatterns list routes URLs to views. For more information please see:
+      
+  https://docs.djangoproject.com/en/1.10/topics/http/urls/
 
-  The `urlpatterns` list routes URLs to views. For more information please see:  
-        [https://docs.djangoproject.com/en/1.10/topics/http/urls/](https://docs.djangoproject.com/en/1.10/topics/http/urls/)  
-    Examples:  
-    Function views  
-        1. Add an import:  from my\_app import views  
-        2. Add a URL to urlpatterns:  url\(r'^$', views.home, name='home'\)  
-    Class-based views  
-        1. Add an import:  from other\_app.views import Home  
-        2. Add a URL to urlpatterns:  url\(r'^$', Home.as\_view\(\), name='home'\)  
-    Including another URLconf  
-        1. Import the include\(\) function: from django.conf.urls import url, include  
-        2. Add a URL to urlpatterns:  url\(r'^blog/', include\('blog.urls'\)\)  
-    """  
-    from django.conf.urls import include,url  
+    Examples:
+    Function views
+        1. Add an import:  from my_app import views
+        2. Add a URL to urlpatterns:  url(r'^$', views.home, name='home')
+    Class-based views
+        1. Add an import:  from other_app.views import Home
+        2. Add a URL to urlpatterns:  url(r'^$', Home.as_view(), name='home')
+    Including another URLconf
+        1. Import the include() function: from django.conf.urls import url, include
+        2. Add a URL to urlpatterns:  url(r'^blog/', include('blog.urls'))
+    """
+    from django.conf.urls import include,url
     from django.contrib import admin
+  urlpatterns = [
+        url(r'^admin/', admin.site.urls),
+    ]
 
-  urlpatterns = \[  
-        url\(r'^admin/', admin.site.urls\),  
-    \]
+  ```
 
 * **djangotutorial/wsgi.py **merupakan dukungan kompatibilitas **WSGI** dengan web server untuk menjalankan project Django. Nantinya bisa diintegrasikan dengan menggunakan web server pada umumnya seperti apache, nginx dan lain-lain.
 
