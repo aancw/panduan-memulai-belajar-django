@@ -8,7 +8,7 @@ Django merupakan Free dan Open Source Web Framework yang dibangun menggunakan ba
 
 * View adalah lapisan yang berurusan dengan logika. Pada lapisan ini terdapat logika yang dapat mengakses model dan juga template. Bisa juga disebut sebagai jembatan antara model dan template.
 
-# 1.1 Kenapa Django?
+# 1.1 Kenapa Django? {#11}
 
 * **Rapidly**
 
