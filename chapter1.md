@@ -1,4 +1,4 @@
-# 1.0 Apa itu Django?
+# 1.0 Apa itu Django? {#apaitudjango}
 
 Django merupakan Free dan Open Source Web Framework yang dibangun menggunakan bahasa Python. Sebuah web framework yang didalamnya sudah terdapat komponen untuk lebih mempercepat dan memudahkan web development. Arsitektur yang digunakan oleh Django adalah model-template-view\(MTV\).
 
