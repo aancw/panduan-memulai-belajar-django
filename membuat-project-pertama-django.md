@@ -25,10 +25,10 @@ Yang dimana masing-masing tersebut adalah:
 * **djangotutorial/settings.py **merupakan pengaturan atau konfigurasi untuk project Django itu sendiri. Lebih lengkap nya silahkan baca disini [https://docs.djangoproject.com/en/1.10/topics/settings/](https://docs.djangoproject.com/en/1.10/topics/settings/)
 * **djangotutorial/urls.py** merupakan deklarasi URL untuk project Django; Berisi konfigurasi URL pada project yang kita buat. Akan kita bahas pada kesempatan selanjutnya untuk URL Dispatcher dan URLConf. Isi berkas urls.py:
 
-  ```
+  ```py
   """djangotutorial URL Configuration
   The urlpatterns list routes URLs to views. For more information please see:
-      
+
   https://docs.djangoproject.com/en/1.10/topics/http/urls/
 
     Examples:
@@ -47,7 +47,6 @@ Yang dimana masing-masing tersebut adalah:
   urlpatterns = [
         url(r'^admin/', admin.site.urls),
     ]
-
   ```
 
 * **djangotutorial/wsgi.py **merupakan dukungan kompatibilitas **WSGI** dengan web server untuk menjalankan project Django. Nantinya bisa diintegrasikan dengan menggunakan web server pada umumnya seperti apache, nginx dan lain-lain.
