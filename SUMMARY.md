@@ -1,7 +1,8 @@
 # Summary
 
 * [Introduction](README.md)
-* 1.[Perkenalan Django](perkenalan-django.md)
+* 1. [Perkenalan Django](perkenalan-django.md)
+
   * [1.0 Apa Itu Django?](bab1/1.0-apa-itu-django.md)
   * [1.1 Kenapa Django?](bab1/1.1-kenapa-django.md)
 * [2. Pemasangan Django](pemasangan-django.md)
