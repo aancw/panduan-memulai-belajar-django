@@ -77,5 +77,15 @@ Quit the server with CONTROL-C.
 
 Abaikan peringatan yang menyebutkan bahwa ada beberapa bagian yang belum dimigrasi, karena memang kita belum saatnya melakukan itu. Pesan tersebut menyatakan bahwa project Django berjalan lancar dan bisa diakses melalui [http://127.0.0.1:8000](http://127.0.0.1:8000). Akan tampil seperti gambar berikut:
 
+  
 ![](/assets/Django-first-app.png)
+
+Perlu diingat bahwa **runserver** secara default akan menjalankan web server dengan internal IP pada port 8000. Kita bisa mengubah nya dengan menggunakan:
+
+```
+python manage.py runserver 8989 # untuk ubah port
+python manage.py runserver 0.0.0.0:8989 # untuk rubah ip dan port
+```
+
+Oh iya, web server yang sudah berjalan ini sudah otomatis reload ketika kita melakukan perubahan terhadap project. Jadi tidak usah restart web server ketika melakukan perubahan kecuali melakukan penambahan berkas. Lebih lengkap bisa baca disini [https://docs.djangoproject.com/en/1.10/ref/django-admin/\#django-admin-runserver](https://docs.djangoproject.com/en/1.10/ref/django-admin/#django-admin-runserver)
 
