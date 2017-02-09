@@ -10,7 +10,7 @@ This ebook is licensed under GNU GENERAL PUBLIC LICENSE Version 2
 
 [Aan Wahyu](https://petruknisme.com/)
 
-## Update {#update}
+## Gabung Kelas Online Sinau Development {#author}
 
-Last update of this project is 09/08/2016
+Untuk bergabung Kelas Online Django, bisa bergabung di grup telegram Sinau Development\( [https://t.me/sinaudev](https://t.me/sinaudev) \)
 
