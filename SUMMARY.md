@@ -7,4 +7,5 @@
 * 2\. [Pemasangan Django](bab2/2_0-pemasangan-django.md)
 * 3\. [Membuat Project Pertama Django](membuat-project-pertama-django.md)
 * 4\. [Membuat Example Hello World Site](membuat-example-hello-world-site.md)
+* 5\.
 
