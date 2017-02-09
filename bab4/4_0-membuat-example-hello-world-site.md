@@ -1,24 +1,24 @@
 # 4.0 Membuat Example Hello World Site
 
-Seperti yang sudah dijelaskan sebelumnya bahwa URLConf adalah konfigurasi URL untuk Django, mungkin bila disamakan dengan CodeIgniter merupakan `route` config. Untuk memanggil fungsi view `hello_sinau` yang berada pada views.py kita harus melakukan perubahan pada URLConf dalam bekas urls.py menjadi seperti berikut:
+Seperti yang sudah dijelaskan sebelumnya bahwa URLConf adalah konfigurasi URL untuk Django, mungkin bila disamakan dengan CodeIgniter merupakan `route` config. Nah, sekarang kita akan membuat Web yang akan menampilkan pesan terkenal seperti `Hello World, Welcome to Sinau Development` dengan menggunakan fungsi _view_ dan mendefinisikan URL dengan URLConf.
+
+## Membuat View
+
+Untuk pembuatan _view_ kita perlu membuat berkas kosong terlebih dahulu bernama `views.py` pada direktori inti sebuah project yang sudah dijelaskan sebelumnya( _djangotutorial/djangotutorial/views.py_ ) seperti berikut:
 
 ```
-from django.conf.urls import include,url
-from django.contrib import admin
-from djangotutorial.views import hello_sinau
+from django.http import HttpResponse
 
-urlpatterns = [
-    url(r'^admin/', admin.site.urls),
-    url(r'^hello/$', hello_sinau),
-]
-
+def hello_sinau(request):
+  return HttpResponse("Hello World, Welcome to Sinau Development!")
 ```
 
-Penjelasan:
+Bila dijabarkan dengan penjelasan akan seperti berikut:
 
-- Kita melakukan import untuk hello_sinau views yang ada pada modul djangotutorial/views.py
-- Kita menambahkan `url(r'^hello/$', hello_sinau)` ke urlpatterns, fungsi ini ditujukan untuk memberitahu Django tentang URL yang sudah dikonfigurasikan. Argumen pertama merupakan pattern-matching berupa RegExp yang dimulai dengan tanda '^' dan diakhiri dengan '$', dan yang kedua merupakan fungsi view yang kita panggil dari berkas views.py.
+* Pertama, kita melakukan import class `HttpResponse` yang berada pada modul `django.http`, kita perlu melakukan import class tersebut karena kita akan menggunakan fungsi yang ada didalamnya pada contoh kali ini.
 
-Satu lagi yang penting adalah 'r' dimana karakter tersebut memberitahukan bahwa string merupakan 'raw string'. Sila baca disini https://docs.python.org/2.0/ref/strings.html . Untuk RegExp sila baca disini https://docs.python.org/3.4/library/re.html
+* Kedua, kita melakukan pendefinisian terhadap fungsi yang bernama `hello_sinau` dengan parameter berupa `request`. Setiap views dibutuhkan setidaknya 1 parameter. Nah, kita disini menggunakan request sebagai parameter dikarenakan `request` merupakan sebuah object yang menyimpan informasi tentang Web Request. Pada kasus ini kita tidak akan melakukan apapun terhadap request karena masih belum dibutuhkan.
 
-Ok, coba kita jalankan kembali `python manage.py runserver`, lalu akses http://127.0.0.1:8000/hello . Maka akan tampil seperti berikut:
+* Ketiga, kita mengembalikan nilai berupa `HttpResponse` yang berisi `Hello World, Welcome to Sinau Development!`
+    
+Agar views yang kita buat dapat berjalan, kita perlu melakukan konfigurasi pada URLConf. Bila kita menjalankan perintah `python manage.py runserver` maka yang akan tampil masihlah tampilan dari **Welcome Django**.
