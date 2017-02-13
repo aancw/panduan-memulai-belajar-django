@@ -17,5 +17,10 @@ urlpatterns = [
 ]
 ```
 
+Bila dijabarkan dengan penjelasan akan seperti berikut:
+
+* Pertama, kita melakukan import untuk modul yang kita butuhkan. Pada 2 baris pertama melakukan import modul url dan admin. Dimana modul admin merupakan modul utama untuk default Django admin. Pada baris ketiga melakukan import untuk view `hello_sinau` yang ada pada modul `djangotutorial/views.py`
+
+
 
 
