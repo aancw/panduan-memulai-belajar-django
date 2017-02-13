@@ -8,4 +8,5 @@
 * [Membuat Project Pertama Django](bab3/3_0-membuat-project-pertama-django.md)
 * [Membuat Example Hello World Site](bab4/4_0-membuat-example-hello-world-site.md)
   * [4.1 Membuat View](bab4/4_1-Membuat-View.md)
+  * [4.2 Konfigurasi URLConf](bab4/4.2-konfigurasi-urlconf.md)
 
