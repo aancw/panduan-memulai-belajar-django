@@ -2,7 +2,7 @@
 
 Untuk pembuatan _view_ kita perlu membuat berkas kosong terlebih dahulu bernama `views.py` pada direktori inti sebuah project yang sudah dijelaskan sebelumnya( _djangotutorial/djangotutorial/views.py_ ) seperti berikut:
 
-```
+```py
 from django.http import HttpResponse
 
 def hello_sinau(request):
