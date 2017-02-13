@@ -2,7 +2,7 @@
 
 Seperti yang sudah dijelaskan sebelumnya bahwa URLConf adalah konfigurasi URL untuk Django, mungkin bila disamakan dengan CodeIgniter merupakan `route` config. Nah, sekarang kita akan membuat Web yang akan menampilkan pesan terkenal seperti `Hello World, Welcome to Sinau Development` dengan menggunakan fungsi _view_ dan mendefinisikan URL dengan URLConf.
 
-## Membuat View
+## 4.1 Membuat View
 
 Untuk pembuatan _view_ kita perlu membuat berkas kosong terlebih dahulu bernama `views.py` pada direktori inti sebuah project yang sudah dijelaskan sebelumnya( _djangotutorial/djangotutorial/views.py_ ) seperti berikut:
 
