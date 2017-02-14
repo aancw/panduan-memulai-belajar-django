@@ -16,4 +16,4 @@ urlpatterns = [
 ]
 ```
 
-Nah, sekarang bila kita mengakses halaman http://127.0.0.1:8000/ akan tampil pesan homepage dan bukan 404 Not Found.
+Nah, sekarang bila kita mengakses halaman http://127.0.0.1:8000/ akan tampil pesan homepage dan bukan 404 Not Found lagi.
