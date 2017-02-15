@@ -12,7 +12,7 @@ from djangotutorial.views import hello_sinau, homepage
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
     url(r'^hello/$', hello_sinau),
-    url(r'^$', welcome),
+    url(r'^$', homepage),
 ]
 ```
 
