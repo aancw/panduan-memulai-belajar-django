@@ -12,4 +12,5 @@
   * [4.3 Sekilas Tentang Site Root](bab4/4_3-tentang-site-root.md)
   * [4.4 Bagaimana Django Memproses Sebuah Request](bab4/4_4-bagaimana-django-memproses-sebuah-request.md)
 * App dan Project Pada Django
+  * [5.0 Apa itu App](bab5/5_0-apa-itu-app.md)
 
