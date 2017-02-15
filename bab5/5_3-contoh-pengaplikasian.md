@@ -1,6 +1,6 @@
 ## 5.3 Contoh Pengaplikasian
 
-Setelah kita mengetahui perbedaan antara App dan Project dalam Django, sekarang kita memasuki ke contoh pengaplikasian secara sederhana. Misal kita akan membuat sebuah web blog dengan fitur komentar, posting, rating, subscribe. Maka akan seperi berikut:
+Setelah kita mengetahui perbedaan antara App dan Project dalam Django, sekarang kita memasuki ke contoh pengaplikasian secara sederhana. Misal kita akan membuat sebuah web blog dengan fitur komentar, posting, rating, subscribe. Maka akan seperti berikut:
 
  Project:
 * DjangoBlog
