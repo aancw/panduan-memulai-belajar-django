@@ -25,3 +25,8 @@ djangotutorial/
 `-- manage.py
 ```
 
+Pada contoh diatas, kita membuat sebuah App yang bernama `apptutorial` didalam sebuah project `djangotutorial`.
+
+
+
+
