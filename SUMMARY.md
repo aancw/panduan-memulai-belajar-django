@@ -11,6 +11,7 @@
   * [4.2 Konfigurasi URLConf](bab4/4_2-konfigurasi-urlconf.md)
   * [4.3 Sekilas Tentang Site Root](bab4/4_3-tentang-site-root.md)
   * [4.4 Bagaimana Django Memproses Sebuah Request](bab4/4_4-bagaimana-django-memproses-sebuah-request.md)
-* App dan Project Pada Django
-  * [5.0 Apa itu App](bab5/5_0-apa-itu-app.md)
+* [App dan Project Pada Django](bab5/app-dan-project-pada-django.md)
+  * [5.1 Apa itu Project?](bab5/5_1-apa-itu-project.md)
+  * [5.2 Apa itu App?](bab5/5_2-apa-itu-app.md)
 
