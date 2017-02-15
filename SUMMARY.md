@@ -14,4 +14,5 @@
 * [App dan Project Pada Django](bab5/app-dan-project-pada-django.md)
   * [5.1 Apa itu Project?](bab5/5_1-apa-itu-project.md)
   * [5.2 Apa itu App?](bab5/5_2-apa-itu-app.md)
+  * [5.3 Contoh Pengaplikasian](bab5/5.3-contoh-pengaplikasian.md)
 
